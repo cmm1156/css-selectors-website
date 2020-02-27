@@ -1,0 +1,231 @@
+body, html {
+  margin: 0px;
+  padding: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Oswald';
+  background-color: #cfdfe6;
+  font-size: 1.75em;
+  background-color: #4d1202;
+  color: #e9eda4;
+}
+
+.header {
+  background-color: #290901;
+}
+
+.mainContainer h1, h2 {
+  color: white;
+}
+
+.mainContainer img {
+  width: 90%;
+}
+
+.transformersFlex {
+  display:flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.mainContainer h1, h2 {
+  margin-left: 30px;
+}
+
+.twoContainer h3 {
+  margin-left: 30px;
+}
+
+.twoContainer {
+  display: flex;
+  align-content: space-between;
+  flex-direction: column;
+}
+
+.optimusPrime {
+  position: relative;
+  display: inline-block;
+  margin: 30px;
+}
+
+.optimusPrime .img-overlay {
+  display: none;
+  position: absolute;
+  z-index: 99;
+}
+
+.optimusPrime:hover .img-overlay {
+  display: inline;
+  width: 60%;
+}
+
+
+.wheeljack {
+  position: relative;
+  display: inline-block;
+  margin: 30px;
+}
+
+.wheeljack .img-overlay {
+  display: none;
+  position: absolute;
+  z-index: 99;
+}
+
+.wheeljack:hover .img-overlay {
+  display: inline;
+  width: 60%;
+}
+
+
+.arcee {
+  position: relative;
+  display: inline-block;
+  margin: 30px;
+}
+
+.arcee .img-overlay {
+  display: none;
+  position: absolute;
+  z-index: 99;
+}
+
+.arcee:hover .img-overlay {
+  display: inline;
+  width: 60%;
+}
+
+
+.bumblebee {
+  position: relative;
+  display: inline-block;
+  margin: 30px;
+}
+
+.bumblebee .img-overlay {
+  display: none;
+  position: absolute;
+  z-index: 99;
+}
+
+.bumblebee:hover .img-overlay {
+  display: inline;
+  width: 60%;
+}
+
+
+.megatron {
+  position: relative;
+  display: inline-block;
+  margin: 30px;
+}
+
+.megatron .img-overlay {
+  display: none;
+  position: absolute;
+  z-index: 99;
+}
+
+.megatron:hover .img-overlay {
+  display: inline;
+  width: 60%;
+}
+
+
+.soundwave {
+  position: relative;
+  display: inline-block;
+  margin: 30px;
+}
+
+.soundwave .img-overlay {
+  display: none;
+  position: absolute;
+  z-index: 99;
+}
+
+.soundwave:hover .img-overlay {
+  display: inline;
+  width: 60%;
+}
+
+
+.starscream {
+  position: relative;
+  display: inline-block;
+  margin: 30px;
+}
+
+.starscream .img-overlay {
+  display: none;
+  position: absolute;
+  z-index: 99;
+}
+
+.starscream:hover .img-overlay {
+  display: inline;
+  width: 60%;
+}
+
+
+.blackout {
+  position: relative;
+  display: inline-block;
+  margin: 30px;
+}
+
+.blackout .img-overlay {
+  display: none;
+  position: absolute;
+  z-index: 99;
+}
+
+.blackout:hover .img-overlay {
+  display: inline;
+  width: 60%;
+}
+
+
+.transformersFlex img {
+  width: 30%;
+}
+
+.transformersFlex > div { /* ### smallContainer ### */
+  border: 2px solid #e9eda4;
+  padding: 16px;
+}
+
+.transformersFlex p {
+  font-weight: bold;
+}
+
+/* .optimusPrime:hover {
+  background-image: url(optimustruck.png);
+  background-repeat: no-repeat;
+} */
+
+/* .wheeljack:hover {
+  background-image: url(wheeljackcar.jpg);
+  background-repeat: no-repeat;
+} */
+
+/* .arcee:hover {
+  background-image: url(arceecar.png);
+  background-repeat: no-repeat;
+} */
+
+/* .bumblebee:hover {
+  background-image: url(bumblebeecar.png);
+  background-repeat: no-repeat;
+} */
+
+.transformersFlex {
+  margin-bottom: 64px;
+}
